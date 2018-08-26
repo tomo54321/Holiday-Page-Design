@@ -1,0 +1,216 @@
+body{
+	min-width:300px;
+}
+
+.btn{
+	cursor:pointer;
+}
+
+.hol_info .hol_head{
+	position:relative;
+}
+
+.hol_info .hol_head.hol_head_large{
+	height:400px;
+}
+
+.hol_info .hol_head .hol_head_bg{
+	background:url(img.jpeg);
+}
+
+.hol_info .hol_head.hol_head_large .hol_head_bg{
+	height:300px;
+}
+
+.hol_info .hol_head .hol_head_features{
+    background: #fff;
+    max-width: 35%;
+    margin: -45px auto 0px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px 1px rgba(148, 148, 148, 0.34);
+    padding: 10px 5px;
+    min-width: 100px;
+}
+
+.hol_info .hol_head .hol_head_features ul{
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hol_info .hol_head .hol_head_features ul li .hol_feature_icon{
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin: auto;
+}
+
+.hol_info .hol_head .hol_head_features ul li .hol_feature_name{
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.hol_info .hol_head.hol_head_large .hol_head_title{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+.hol_info .hol_head.hol_head_large .hol_head_title h1{
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.hol_info .hol_head.hol_head_large .hol_head_title span{
+	font-size: 1em;
+    display: block;
+    margin-top: -15px;
+}
+
+.hol_info .hol_head .hol_head_book{
+    position: absolute;
+    right: 15px;
+    top: 250px;
+    transition:250ms ease top;
+}
+
+.hol_info .hol_head .hol_head_book .btn{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0px 25px 8px 25px;
+}
+
+.hol_info .hol_head .hol_head_book .btn .material-icons{
+    font-size: 24px;
+    position: relative;
+    top: 6px;
+    left: 15px;
+    transition:250ms ease left;
+}
+
+.hol_info .hol_head .hol_head_book .btn:hover .material-icons{
+    left: 5px;
+}
+
+.hol_body .section-title{
+    font-size: 3em;
+    font-weight: bolder;
+    display:block;
+    margin-bottom:10px;
+}
+
+.hol_body .hol_body_tour .col{
+	margin:0px 0px 15px 0px;
+}
+
+.hol_body .hol_body_tour .photo-preview{
+    width: 250px;
+    height: auto;
+    display: block;
+}
+
+.hol_body .hol_body_tour .preview-caption{
+	font-weight: bolder;
+    font-size: 14px;
+    display: block;
+    margin-top: 6px;
+}
+
+.hol_info_fixed{
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+    padding: 10px 0px;
+    height: 75px;
+    box-shadow: 0px 2px 15px 0px #ebebeb;
+    transition:250ms ease bottom;
+}
+
+.hol_info_fixed.hidden{
+	bottom:-80px;
+}
+
+.hol_info_fixed .hol_title{
+    font-weight: bolder;
+    display: block;
+    font-size: 22px;
+    transition:250ms ease font-size, 250ms ease margin;
+}
+
+.hol_info_fixed .hol_starting{
+    display: block;
+    font-size: 14px;
+}
+
+.hol_info_fixed ul{
+    list-style-type: none;
+    padding: 5px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+    text-align: center;
+}
+
+.hol_info_fixed ul .hol_feature_icon{
+	display:block;
+}
+
+.hol_info_fixed .btn-success{
+	margin:10px 0px;
+}
+
+.hol_fixed_info_wrap{
+	height:75px;
+}
+
+@media only screen and (max-width:992px){
+	.hol_info_fixed .hol_starting{
+		display: none;
+	}
+	
+	.hol_info_fixed .hol_title{
+		font-size: 26px;
+		margin: 9px 0px;
+	}
+}
+
+@media only screen and (max-width:545px){
+	.hol_info_fixed{
+		bottom:-80px!important;
+	}
+}
+
+@media only screen and (min-width:700px){
+	.hol_info .hol_head.hol_head_large .hol_head_title h1{
+		font-size: 5em;
+	}
+}
+
+@media only screen and (min-width:1000px){
+	.hol_info .hol_head.hol_head_large .hol_head_title h1{
+		font-size: 6em;
+	}
+}
+
+@media only screen and (max-width:875px){
+	.hol_info .hol_head .hol_head_features{
+		max-width: 80%;
+	}
+	.hol_info .hol_head .hol_head_book{
+		top:200px;
+	}
+}
+
+@media only screen and (max-width:500px){
+	.hol_info .hol_head .hol_head_features{
+		max-width: 95%;
+	}
+}
