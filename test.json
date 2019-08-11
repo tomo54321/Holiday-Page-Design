@@ -1,23 +1,23 @@
 {
-  success:true,
-  results:[
+  "success":true,
+  "results":[
     {
-      primary:"Bloomfield Way",
-      secondary:"Lowestoft",
-      icon:"location_on",
-      location:{
-        lat:52.4516176,
-        lng:1.7100382
+      "primary":"Bloomfield Way",
+      "secondary":"Lowestoft",
+      "icon":"location_on",
+      "location":{
+        "lat":52.4516176,
+        "lng":1.7100382
       }
     },
   
     {
-      primary:"Tesco",
-      secondary:"Leisure Way",
-      icon:"shopping_basket",
-      location:{
-        lat:52.4516176,
-        lng:1.7100382
+      "primary":"Tesco",
+      "secondary":"Leisure Way",
+      "icon":"shopping_basket",
+      "location":{
+        "lat":52.4516176,
+        "lng":1.7100382
       }
     }
   
